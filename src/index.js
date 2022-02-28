@@ -11,7 +11,7 @@ import Formulario from "./components/Formulario";
 import Main from "./components/Main";
 import CardPokemon from "./components/CardPokemon";
 
-function App(props) {
+function App() {
   const [pokemon, setPokemon] = useState([]);
 
   return (
