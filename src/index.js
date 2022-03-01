@@ -38,21 +38,9 @@ function App() {
   );
 }
 
-function All() {
-  var agoraVai = (nomePokemon) => {
-    return nomePokemon;
-  };
-
-  return (
-    <React.Fragment>
-      <App agoraVai={agoraVai} />
-    </React.Fragment>
-  );
-}
-
 ReactDOM.render(
   <React.Fragment>
-    <All />
+    <App />
   </React.Fragment>,
   document.getElementById("app")
 );
